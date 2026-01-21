@@ -86,13 +86,15 @@ giveninits=true % render authors' given name initials and not the full given nam
 %%%%%%%%
 \newtcolorbox{defbox}[1]{%
 	enhanced,
-	attach boxed title to top 	left={xshift=5mm,yshift=-5mm,yshifttext=-5mm},
+	attach boxed title to top left={xshift=5mm,yshift=-5mm,yshifttext=-5mm},
 	colback=cyan!5!white,
 	colframe=cyan!75!black,
 	coltitle=cyan!80!black,
-	%	left=0mm,right=0mm,top=2mm,bottom=0mm,
 	title={#1},
-	fonttitle=\bfseries\large, fontupper=\color{cyan!65!white},
+	fonttitle=\bfseries\large, 
+	% --- Change here: fontupper set to black ---
+	fontupper=\color{black}, 
+	% --------------------------------------------
 	boxed title style={colback=cyan!5!white,colframe=cyan!75!black},
 	before upper={
 		\beamercolorsinboxes{cyan}

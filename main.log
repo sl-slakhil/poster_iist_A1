@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  21 JAN 2026 12:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  21 JAN 2026 14:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1502,12 +1502,6 @@ LaTeX Warning: Label `fig:my_label' multiply defined.
 
 LaTeX Warning: Label `fig:my_label' multiply defined.
 
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -1656,73 +1650,61 @@ Package pdftex.def Info: ./logos/logo2.png  used on input line 75.
 (pdftex.def)             Requested size: 81.16222pt x 85.35826pt.
 File: logos/IIST Logo.pdf Graphic file (type pdf)
 <use logos/IIST Logo.pdf>
-Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 247.
+Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 232.
 (pdftex.def)             Requested size: 85.35754pt x 85.35826pt.
 File: ./logos/logo2.png Graphic file (type png)
 <use ./logos/logo2.png>
-Package pdftex.def Info: ./logos/logo2.png  used on input line 247.
+Package pdftex.def Info: ./logos/logo2.png  used on input line 232.
 (pdftex.def)             Requested size: 81.16222pt x 85.35826pt.
 <pictures/figure1.jpg, id=51, 426.75435pt x 426.75435pt>
 File: pictures/figure1.jpg Graphic file (type jpg)
 <use pictures/figure1.jpg>
-Package pdftex.def Info: pictures/figure1.jpg  used on input line 247.
+Package pdftex.def Info: pictures/figure1.jpg  used on input line 232.
 (pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
 <pictures/figure2.jpg, id=52, 426.75435pt x 426.75435pt>
 File: pictures/figure2.jpg Graphic file (type jpg)
 <use pictures/figure2.jpg>
-Package pdftex.def Info: pictures/figure2.jpg  used on input line 247.
+Package pdftex.def Info: pictures/figure2.jpg  used on input line 232.
 (pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
 File: pictures/figure1.jpg Graphic file (type jpg)
 <use pictures/figure1.jpg>
-Package pdftex.def Info: pictures/figure1.jpg  used on input line 247.
+Package pdftex.def Info: pictures/figure1.jpg  used on input line 232.
 (pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
 File: pictures/figure2.jpg Graphic file (type jpg)
 <use pictures/figure2.jpg>
-Package pdftex.def Info: pictures/figure2.jpg  used on input line 247.
+Package pdftex.def Info: pictures/figure2.jpg  used on input line 232.
 (pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
 File: pictures/figure1.jpg Graphic file (type jpg)
 <use pictures/figure1.jpg>
-Package pdftex.def Info: pictures/figure1.jpg  used on input line 247.
+Package pdftex.def Info: pictures/figure1.jpg  used on input line 232.
 (pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
 File: pictures/figure2.jpg Graphic file (type jpg)
 <use pictures/figure2.jpg>
-Package pdftex.def Info: pictures/figure2.jpg  used on input line 247.
+Package pdftex.def Info: pictures/figure2.jpg  used on input line 232.
 (pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
 File: pictures/figure1.jpg Graphic file (type jpg)
 <use pictures/figure1.jpg>
-Package pdftex.def Info: pictures/figure1.jpg  used on input line 247.
+Package pdftex.def Info: pictures/figure1.jpg  used on input line 232.
 (pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
 File: pictures/figure2.jpg Graphic file (type jpg)
 <use pictures/figure2.jpg>
-Package pdftex.def Info: pictures/figure2.jpg  used on input line 247.
-(pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
-File: pictures/figure1.jpg Graphic file (type jpg)
-<use pictures/figure1.jpg>
-Package pdftex.def Info: pictures/figure1.jpg  used on input line 247.
-(pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
-File: pictures/figure2.jpg Graphic file (type jpg)
-<use pictures/figure2.jpg>
-Package pdftex.def Info: pictures/figure2.jpg  used on input line 247.
+Package pdftex.def Info: pictures/figure2.jpg  used on input line 232.
 (pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <13.48> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 247.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 232.
 
-
-
-Overfull \vbox (178.64937pt too high) detected at line 247
- []
 
 
 
 File: logos/IIST Logo.pdf Graphic file (type pdf)
 <use logos/IIST Logo.pdf>
-Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 247.
+Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 232.
 (pdftex.def)             Requested size: 85.35754pt x 85.35826pt.
 File: ./logos/logo2.png Graphic file (type png)
 <use ./logos/logo2.png>
-Package pdftex.def Info: ./logos/logo2.png  used on input line 247.
+Package pdftex.def Info: ./logos/logo2.png  used on input line 232.
 (pdftex.def)             Requested size: 81.16222pt x 85.35826pt.
 [1{C:/Users/praveen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
@@ -1731,55 +1713,43 @@ pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.247 \end{frame}
+l.232 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.247 \end{frame}
+l.232 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.247 \end{frame}
+l.232 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.247 \end{frame}
+l.232 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.247 \end{frame}
+l.232 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.247 \end{frame}
+l.232 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.247 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.247 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.247 \end{frame}
+l.232 \end{frame}
                   <./logos/IIST Logo.pdf> <./logos/logo2.png> <./pictures/figur
 e1.jpg> <./pictures/figure2.jpg>]
 \tf@nav=\write7
@@ -1808,8 +1778,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  49977 strings out of 468133
- 1163429 string characters out of 5440780
- 2164813 words of memory out of 5000000
+ 1163098 string characters out of 5440780
+ 2164775 words of memory out of 5000000
  77744 multiletter control sequences out of 15000+600000
  635534 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1818,7 +1788,7 @@ Here is how much of TeX's memory you used:
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmssi12.pfb>
-Output written on main.pdf (1 page, 2880072 bytes).
+Output written on main.pdf (1 page, 2881586 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
