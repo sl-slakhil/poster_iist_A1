@@ -1,0 +1,248 @@
+\documentclass[final]{beamer}
+%% Possible paper sizes: a0, a0b, a1, a2, a3, a4.
+%% Possible orientations: portrait, landscape
+%% Font sizes can be changed using the scale option.
+\usepackage[size=a1,orientation=portrait,scale=1.1]{beamerposter}
+
+\usetheme{gemini}
+\usecolortheme{seagull}
+\useinnertheme{rectangles}
+
+% ====================
+% Packages
+% ====================
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{multicol}
+
+% ====================
+% Lengths
+% ====================
+
+% If you have N columns, choose \sepwidth and \colwidth such that
+% (N+1)*\sepwidth + N*\colwidth = \paperwidth
+\newlength{\sepwidth}
+\newlength{\colwidth}
+\setlength{\sepwidth}{0.03\paperwidth}
+\setlength{\colwidth}{0.45\paperwidth}
+
+\newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
+
+% ====================
+% Logo (optional)
+% ====================
+
+% LaTeX logo taken from https://commons.wikimedia.org/wiki/File:LaTeX_logo.svg
+% use this to include logos on the left and/or right side of the header:
+\logoright{\includegraphics[height=3cm]{./logos/logo2}}
+\logoleft{\includegraphics[height=3cm]{logos/IIST Logo.pdf}}
+
+% ====================
+% Footer (optional)
+% ====================
+
+
+% (can be left out to remove footer)
+
+% ====================
+% My own customization
+% - BibLaTeX
+% - Boxes with tcolorbox
+% - User-defined commands
+% ====================
+
+
+%% Reference Sources
+%\addbibresource{refs.bib}
+\renewcommand{\pgfuseimage}[1]{\includegraphics[scale=2.0]{#1}}
+
+\title{Meshfree Method for Stress Driven Beams}
+
+\author{Akhil S L  \and  I R Praveen Krishna }
+
+\institute[IIST]{
+	Department of Aerospace Engineering,\\
+Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
+
+\date{August 15, 2022}
+
+
+\input{mydefs.tex}
+\begin{document}
+	
+\begin{frame}[t]
+	
+	\begin{columns}[t]
+	
+	\begin{column}{2\colwidth+\sepwidth}
+	\begin{block}{Introduction}
+		\justifying
+		Low-dimensional structures with dimensions in the micro-nano range exhibit size-dependent behavior that cannot be captured by local constitutive models. This deviation occurs because local models assume material point interactions are local, whereas size-dependent behavior arises from long-range interactions. While Eringen’s strain-driven nonlocal model has been widely used, it often results in ill-posed governing equations and paradoxical results for beam bending. The stress-driven nonlocal approach has emerged as a mathematically consistent and well-posed substitute. This research develops the Element-Free Galerkin (EFG) method for a stress-driven one-dimensional Bernoulli-Euler beam, utilizing its inherent nonlocal solution approximation to accurately simulate size effects.
+	\end{block}
+	\end{column}
+	\end{columns}
+
+	\begin{columns}[t]
+		\separatorcolumn
+		\begin{column}{\colwidth}
+
+				\begin{defbox}{Normalized displacement of clamped-clamped beam}{}
+				
+				\begin{figure}
+					\centering
+					\includegraphics[width = 0.4\textwidth]{pictures/figure1}
+					\vspace{-0.4 cm}
+					\caption{Normalized displacemnt of cantilever beam}
+					\label{fig:my_label}
+				\end{figure}
+				\vspace{-0.2 cm}
+				\begin{figure}
+					\centering
+					\includegraphics[width = 0.4\textwidth]{pictures/figure2}
+					\vspace{-0.4 cm}
+					\caption{Domain and boundary conditions of the numerical model}
+					\label{fig:my_label}
+				\end{figure}   
+			\end{defbox}
+			\begin{defbox}{Normalized displacement of clamped-clamped beam}{}
+				
+				\begin{figure}
+					\centering
+					\includegraphics[width = 0.4\textwidth]{pictures/figure1}
+					\vspace{-0.4 cm}
+					\caption{Normalized displacemnt of cantilever beam}
+					\label{fig:my_label}
+				\end{figure}
+				\vspace{-0.2 cm}
+				\begin{figure}
+					\centering
+					\includegraphics[width = 0.4\textwidth]{pictures/figure2}
+					\vspace{-0.4 cm}
+					\caption{Domain and boundary conditions of the numerical model}
+					\label{fig:my_label}
+				\end{figure}   
+			\end{defbox}
+				\begin{defbox}{Normalized displacement of clamped-clamped beam}{}
+				
+				\begin{figure}
+					\centering
+					\includegraphics[width = 0.4\textwidth]{pictures/figure1}
+					\vspace{-0.4 cm}
+					\caption{Normalized displacemnt of cantilever beam}
+					\label{fig:my_label}
+				\end{figure}
+				\vspace{-0.2 cm}
+				\begin{figure}
+					\centering
+					\includegraphics[width = 0.4\textwidth]{pictures/figure2}
+					\vspace{-0.4 cm}
+					\caption{Domain and boundary conditions of the numerical model}
+					\label{fig:my_label}
+				\end{figure}   
+			\end{defbox}
+		\end{column}
+		
+		\separatorcolumn
+		
+		\begin{column}{\colwidth}
+			
+				\begin{defbox}{Normalized displacement of clamped-clamped beam}{}
+				
+				\begin{figure}
+					\centering
+					\includegraphics[width = 0.4\textwidth]{pictures/figure1}
+					\vspace{-0.4 cm}
+					\caption{Normalized displacemnt of cantilever beam}
+					\label{fig:my_label}
+				\end{figure}
+				\vspace{-0.2 cm}
+				\begin{figure}
+					\centering
+					\includegraphics[width = 0.4\textwidth]{pictures/figure2}
+					\vspace{-0.4 cm}
+					\caption{Domain and boundary conditions of the numerical model}
+					\label{fig:my_label}
+				\end{figure}   
+			\end{defbox}
+			
+			\begin{defbox}{Normalized displacement of clamped-clamped beam}{}
+			
+			\begin{figure}
+				\centering
+				\includegraphics[width = 0.4\textwidth]{pictures/figure1}
+				\vspace{-0.4 cm}
+				\caption{Normalized displacemnt of cantilever beam}
+				\label{fig:my_label}
+			\end{figure}
+			\vspace{-0.2 cm}
+			\begin{figure}
+				\centering
+				\includegraphics[width = 0.4\textwidth]{pictures/figure2}
+				\vspace{-0.4 cm}
+				\caption{Domain and boundary conditions of the numerical model}
+				\label{fig:my_label}
+			\end{figure}   
+		\end{defbox}
+			
+			
+\begin{block}{References}
+	% This prevents the "Entry Name" error and uses small text
+	\setbeamertemplate{bibliography item}[text] 
+	\renewcommand{\refname}{} % Removes the default "References" title inside the block
+	
+	\begin{footnotesize}
+		\begin{thebibliography}{9}
+			\setlength{\itemsep}{0.2ex} % Adjusts vertical spacing between refs
+			
+			\bibitem{akhil2022} 
+			A. S. L. Akhil and I. R. P. Krishna, 
+			\newblock "Stress Driven Beams using Meshfree Methods," 
+			\newblock \textit{IIST Research Symposium}, 2022.
+			
+			\bibitem{eringen} 
+			A. C. Eringen, 
+			\newblock "Nonlocal Continuum Field Theories," 
+			\newblock \textit{Springer}, 2002.
+			
+		\end{thebibliography}
+	\end{footnotesize}
+\end{block}
+		\end{column}
+		
+		\separatorcolumn
+	\end{columns}
+% This fills the empty space and gives the overlay a stable base
+\vfill 
+
+% --- The Absolute Footer ---
+\begin{tikzpicture}[remember picture, overlay]
+	\node[
+	anchor=south west, 
+	inner sep=0pt, 
+	outer sep=0pt,
+	at={(current page.south west)} 
+	] {
+		\begin{tcolorbox}[
+			enhanced,
+			width=\paperwidth,
+			sharp corners,
+			boxrule=0pt,
+			colback=myfooterblue,
+			colframe=myfooterblue,
+			colupper=white,
+			boxsep=10mm, 
+			top=0mm, bottom=0mm,
+			left=2\sepwidth, right=2\sepwidth
+			]
+			\centering
+			\large \textbf{Structural Dynamics and Vibration Laboratory} \hfill \textbf{IIST, Thiruvananthapuram} \hfill \textbf{2026}
+		\end{tcolorbox}
+	};
+\end{tikzpicture}
+
+\end{frame}
+\end{document}
