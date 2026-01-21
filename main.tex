@@ -62,7 +62,7 @@
 
 \title{Meshfree Method for Stress Driven Beams}
 
-\author{Akhil S L  \and  I R Praveen Krishna }
+\author{Akhil S L,  \and  I R Praveen Krishna }
 
 \institute[IIST]{
 	Department of Aerospace Engineering,\\
@@ -91,42 +91,38 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 		\begin{column}{\colwidth}
 
 				\begin{defbox}{Theoretical Formulation and Methodology}{}
-				The formulation begins with the stress-driven integral model, where nonlocal bending curvatures are defined by the spatial convolution of a kernel function and the bending interaction. This approach leads to a sixth-order governing differential equation for the transverse displacement field. Unlike traditional finite element methods that rely on predefined meshes, the EFG method utilizes scattered nodes and Moving Least Square (MLS) approximations for constructing shape functions. To satisfy the requirements for higher-order continuity needed to approximate bending moments and shear forces in a stress-driven setting, a 6th-order spline weighting function is employed 
-			\end{defbox}
-			\begin{defbox}{Normalized displacement of clamped-clamped beam}{}
-				
+				The formulation begins with the stress-driven integral model, where nonlocal bending curvatures are defined by the spatial convolution of a kernel function and the bending interaction. This approach leads to a sixth-order governing differential equation for the transverse displacement field. Unlike traditional finite element methods that rely on predefined meshes, the EFG method utilizes scattered nodes and Moving Least Square (MLS) approximations for constructing shape functions. To satisfy the requirements for higher-order continuity needed to approximate bending moments and shear forces in a stress-driven setting, a 6th-order spline weighting function is employed.
 				\begin{figure}
 					\centering
-					\includegraphics[width = 0.4\textwidth]{pictures/figure1}
+					\includegraphics[width = 0.4\textwidth]{pictures/figure3}
 					\vspace{-0.4 cm}
-					\caption{Normalized displacemnt of cantilever beam}
-					\label{fig:my_label}
+					\caption{Euler-Bernoulli beam kinematics}
+					\label{figure1}
 				\end{figure}
-				\vspace{-0.2 cm}
+			\end{defbox}
+			\begin{defbox}{Numerical Implementation}{}
+				The discrete system of equations is formed by implementing the weighted residual statement through integration by parts. Because MLS interpolants lack the Kronecker delta property, essential and constitutive boundary conditions are enforced using a combination of the scaled transformation method and Lagrange multipliers. This methodology eliminates the need for the constitutive continuity conditions typically required by element-based formulations. The resulting stiffness matrix is fully populated, leading to a higher computational effort compared to the finite element method, but it provides a more robust numerical tool for nonlocal analysis.
+				
+
+			\end{defbox}
+				\begin{defbox}{Validation and Parametric Study}{}
+				The proposed SD-EFGM formulation was validated by comparing the end deflection of a cantilever microbeam against experimental results. The method successfully predicted the load-displacement relationship for microbeams of different heights, demonstrating that nonlocal behavior reduces as the beam length increases, as expected in nonlocal theory. Furthermore, static results for simply supported, cantilever, and fixed-fixed beams under point and uniformly distributed loads were compared against analytical stress-driven solutions. The SD-EFGM displacement shows a consistent stiffening effect with an increase in nonlocal parameters, aligning with analytical benchmarks.
 				\begin{figure}
 					\centering
-					\includegraphics[width = 0.4\textwidth]{pictures/figure2}
+					\includegraphics[width = 0.4\textwidth]{pictures/figure4}
 					\vspace{-0.4 cm}
-					\caption{Domain and boundary conditions of the numerical model}
-					\label{fig:my_label}
+					\caption{Force-displacement relation, experimental and predicted}
+					\label{figure2}
 				\end{figure}   
 			\end{defbox}
-				\begin{defbox}{Normalized displacement of clamped-clamped beam}{}
-				
+			\begin{defbox}{Effect of Nondimensional Length Scale}
+				The accuracy of the EFG method depends heavily on the local support size, which is scaled by the nondimensional length scale parameter, $d_{max}$19191919. A parametric study revealed that the error remains high if $d_{max}$ is less than 50, and the optimal range for minimal error is between 200 and 600. Additionally, the stability of the method requires that the number of nodes in the domain be sufficiently large; specifically, a minimum of forty nodes is necessary to satisfy moment balance at the supports of a simply supported beam. This highlights a critical requirement for simulating nonlocal solids: the support domain must be large enough to effectively scale the local interactions.
 				\begin{figure}
 					\centering
-					\includegraphics[width = 0.4\textwidth]{pictures/figure1}
+					\includegraphics[width = 0.4\textwidth]{pictures/figure5}
 					\vspace{-0.4 cm}
-					\caption{Normalized displacemnt of cantilever beam}
-					\label{fig:my_label}
-				\end{figure}
-				\vspace{-0.2 cm}
-				\begin{figure}
-					\centering
-					\includegraphics[width = 0.4\textwidth]{pictures/figure2}
-					\vspace{-0.4 cm}
-					\caption{Domain and boundary conditions of the numerical model}
-					\label{fig:my_label}
+					\caption{Error in displacement Nondimensional length scale}
+					\label{figure5}
 				\end{figure}   
 			\end{defbox}
 		\end{column}
