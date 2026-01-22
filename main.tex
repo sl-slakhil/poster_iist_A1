@@ -31,7 +31,8 @@
 \setlength{\colwidth}{0.45\paperwidth}
 
 \newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
-
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty} % Removes "Figure:" and the number
 % ====================
 % Logo (optional)
 % ====================
@@ -131,8 +132,8 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 		
 		\begin{column}{\colwidth}
 			
-				\begin{defbox}{Normalized displacement of clamped-clamped beam}{}
-				
+				\begin{defbox}{Numerical Results}{}
+				 
 				\begin{figure}
 					\centering
 					\includegraphics[width = 0.4\textwidth]{pictures/figure1}
@@ -150,23 +151,9 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 				\end{figure}   
 			\end{defbox}
 			
-			\begin{defbox}{Normalized displacement of clamped-clamped beam}{}
+			\begin{defbox}{Conclusion}{}
 			
-			\begin{figure}
-				\centering
-				\includegraphics[width = 0.4\textwidth]{pictures/figure1}
-				\vspace{-0.4 cm}
-				\caption{Normalized displacemnt of cantilever beam}
-				\label{fig:my_label}
-			\end{figure}
-			\vspace{-0.2 cm}
-			\begin{figure}
-				\centering
-				\includegraphics[width = 0.4\textwidth]{pictures/figure2}
-				\vspace{-0.4 cm}
-				\caption{Domain and boundary conditions of the numerical model}
-				\label{fig:my_label}
-			\end{figure}   
+		The development of the SD-EFGM provides an efficient numerical scheme for the static analysis of nonlocal Bernoulli-Euler beams. The method successfully captures critical bending quantities such as displacement, slopes, bending moments, and shear forces. It proves to be a well-posed alternative to strain-driven models, effectively eliminating previous modeling paradoxes while maintaining numerical accuracy through proper selection of the support domain and nodal density. 
 		\end{defbox}
 			
 			

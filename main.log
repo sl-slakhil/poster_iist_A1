@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  21 JAN 2026 16:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  22 JAN 2026 10:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1219,15 +1219,45 @@ Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 )
 \sepwidth=\skip89
 \colwidth=\skip90
+
+(C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen363
+\captionmargin=\dimen364
+\caption@leftmargin=\dimen365
+\caption@rightmargin=\dimen366
+\caption@width=\dimen367
+\caption@indent=\dimen368
+\caption@parindent=\dimen369
+\caption@hangindent=\dimen370
+Package caption Info: beamer document class detected.
+
+(C:\Program Files\MiKTeX\tex/latex/caption\caption-beamer.sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
+e beamer document classes (AR)
+))
+\c@caption@flags=\count423
+\c@continuedfloat=\count424
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen371
+\caption@adjustwidth@linewidth=\dimen372
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+Package caption Info: listings package is loaded.
+)
 <./logos/logo2.png, id=46, 3471.97125pt x 3649.635pt>
 File: ./logos/logo2.png Graphic file (type png)
 <use ./logos/logo2.png>
-Package pdftex.def Info: ./logos/logo2.png  used on input line 41.
+Package pdftex.def Info: ./logos/logo2.png  used on input line 42.
 (pdftex.def)             Requested size: 81.16222pt x 85.35826pt.
 <logos/IIST Logo.pdf, id=48, 501.03056pt x 501.03056pt>
 File: logos/IIST Logo.pdf Graphic file (type pdf)
 <use logos/IIST Logo.pdf>
-Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 42.
+Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 43.
 (pdftex.def)             Requested size: 85.35754pt x 85.35826pt.
  (mydefs.tex
 (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty
@@ -1235,7 +1265,7 @@ Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
 
 (C:\Program Files\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count423
+\lrq@indent=\count425
 
 (C:\Program Files\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1243,49 +1273,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count424
-\c@listtotal=\count425
-\c@listcount=\count426
-\c@liststart=\count427
-\c@liststop=\count428
-\c@citecount=\count429
-\c@citetotal=\count430
-\c@multicitecount=\count431
-\c@multicitetotal=\count432
-\c@instcount=\count433
-\c@maxnames=\count434
-\c@minnames=\count435
-\c@maxitems=\count436
-\c@minitems=\count437
-\c@citecounter=\count438
-\c@maxcitecounter=\count439
-\c@savedcitecounter=\count440
-\c@uniquelist=\count441
-\c@uniquename=\count442
-\c@refsection=\count443
-\c@refsegment=\count444
-\c@maxextratitle=\count445
-\c@maxextratitleyear=\count446
-\c@maxextraname=\count447
-\c@maxextradate=\count448
-\c@maxextraalpha=\count449
-\c@abbrvpenalty=\count450
-\c@highnamepenalty=\count451
-\c@lownamepenalty=\count452
-\c@maxparens=\count453
-\c@parenlevel=\count454
-\blx@tempcnta=\count455
-\blx@tempcntb=\count456
-\blx@tempcntc=\count457
-\c@blx@maxsection=\count458
-\blx@maxsegment@0=\count459
-\blx@notetype=\count460
-\blx@parenlevel@text=\count461
-\blx@parenlevel@foot=\count462
-\blx@sectionciteorder@0=\count463
-\blx@sectionciteorderinternal@0=\count464
-\blx@entrysetcounter=\count465
-\blx@biblioinstance=\count466
+\c@tabx@nest=\count426
+\c@listtotal=\count427
+\c@listcount=\count428
+\c@liststart=\count429
+\c@liststop=\count430
+\c@citecount=\count431
+\c@citetotal=\count432
+\c@multicitecount=\count433
+\c@multicitetotal=\count434
+\c@instcount=\count435
+\c@maxnames=\count436
+\c@minnames=\count437
+\c@maxitems=\count438
+\c@minitems=\count439
+\c@citecounter=\count440
+\c@maxcitecounter=\count441
+\c@savedcitecounter=\count442
+\c@uniquelist=\count443
+\c@uniquename=\count444
+\c@refsection=\count445
+\c@refsegment=\count446
+\c@maxextratitle=\count447
+\c@maxextratitleyear=\count448
+\c@maxextraname=\count449
+\c@maxextradate=\count450
+\c@maxextraalpha=\count451
+\c@abbrvpenalty=\count452
+\c@highnamepenalty=\count453
+\c@lownamepenalty=\count454
+\c@maxparens=\count455
+\c@parenlevel=\count456
+\blx@tempcnta=\count457
+\blx@tempcntb=\count458
+\blx@tempcntc=\count459
+\c@blx@maxsection=\count460
+\blx@maxsegment@0=\count461
+\blx@notetype=\count462
+\blx@parenlevel@text=\count463
+\blx@parenlevel@foot=\count464
+\blx@sectionciteorder@0=\count465
+\blx@sectionciteorderinternal@0=\count466
+\blx@entrysetcounter=\count467
+\blx@biblioinstance=\count468
 \labelnumberwidth=\skip91
 \labelalphawidth=\skip92
 \biblabelsep=\skip93
@@ -1297,9 +1327,9 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language79
-\c@mincomprange=\count467
-\c@maxcomprange=\count468
-\c@mincompwidth=\count469
+\c@mincomprange=\count469
+\c@maxcomprange=\count470
+\c@mincompwidth=\count471
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1310,74 +1340,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count470
-\c@savedafterword=\count471
-\c@annotator=\count472
-\c@savedannotator=\count473
-\c@author=\count474
-\c@savedauthor=\count475
-\c@bookauthor=\count476
-\c@savedbookauthor=\count477
-\c@commentator=\count478
-\c@savedcommentator=\count479
-\c@editor=\count480
-\c@savededitor=\count481
-\c@editora=\count482
-\c@savededitora=\count483
-\c@editorb=\count484
-\c@savededitorb=\count485
-\c@editorc=\count486
-\c@savededitorc=\count487
-\c@foreword=\count488
-\c@savedforeword=\count489
-\c@holder=\count490
-\c@savedholder=\count491
-\c@introduction=\count492
-\c@savedintroduction=\count493
-\c@namea=\count494
-\c@savednamea=\count495
-\c@nameb=\count496
-\c@savednameb=\count497
-\c@namec=\count498
-\c@savednamec=\count499
-\c@translator=\count500
-\c@savedtranslator=\count501
-\c@shortauthor=\count502
-\c@savedshortauthor=\count503
-\c@shorteditor=\count504
-\c@savedshorteditor=\count505
-\c@labelname=\count506
-\c@savedlabelname=\count507
-\c@institution=\count508
-\c@savedinstitution=\count509
-\c@lista=\count510
-\c@savedlista=\count511
-\c@listb=\count512
-\c@savedlistb=\count513
-\c@listc=\count514
-\c@savedlistc=\count515
-\c@listd=\count516
-\c@savedlistd=\count517
-\c@liste=\count518
-\c@savedliste=\count519
-\c@listf=\count520
-\c@savedlistf=\count521
-\c@location=\count522
-\c@savedlocation=\count523
-\c@organization=\count524
-\c@savedorganization=\count525
-\c@origlocation=\count526
-\c@savedoriglocation=\count527
-\c@origpublisher=\count528
-\c@savedorigpublisher=\count529
-\c@publisher=\count530
-\c@savedpublisher=\count531
-\c@language=\count532
-\c@savedlanguage=\count533
-\c@origlanguage=\count534
-\c@savedoriglanguage=\count535
-\c@pageref=\count536
-\c@savedpageref=\count537
+\c@afterword=\count472
+\c@savedafterword=\count473
+\c@annotator=\count474
+\c@savedannotator=\count475
+\c@author=\count476
+\c@savedauthor=\count477
+\c@bookauthor=\count478
+\c@savedbookauthor=\count479
+\c@commentator=\count480
+\c@savedcommentator=\count481
+\c@editor=\count482
+\c@savededitor=\count483
+\c@editora=\count484
+\c@savededitora=\count485
+\c@editorb=\count486
+\c@savededitorb=\count487
+\c@editorc=\count488
+\c@savededitorc=\count489
+\c@foreword=\count490
+\c@savedforeword=\count491
+\c@holder=\count492
+\c@savedholder=\count493
+\c@introduction=\count494
+\c@savedintroduction=\count495
+\c@namea=\count496
+\c@savednamea=\count497
+\c@nameb=\count498
+\c@savednameb=\count499
+\c@namec=\count500
+\c@savednamec=\count501
+\c@translator=\count502
+\c@savedtranslator=\count503
+\c@shortauthor=\count504
+\c@savedshortauthor=\count505
+\c@shorteditor=\count506
+\c@savedshorteditor=\count507
+\c@labelname=\count508
+\c@savedlabelname=\count509
+\c@institution=\count510
+\c@savedinstitution=\count511
+\c@lista=\count512
+\c@savedlista=\count513
+\c@listb=\count514
+\c@savedlistb=\count515
+\c@listc=\count516
+\c@savedlistc=\count517
+\c@listd=\count518
+\c@savedlistd=\count519
+\c@liste=\count520
+\c@savedliste=\count521
+\c@listf=\count522
+\c@savedlistf=\count523
+\c@location=\count524
+\c@savedlocation=\count525
+\c@organization=\count526
+\c@savedorganization=\count527
+\c@origlocation=\count528
+\c@savedoriglocation=\count529
+\c@origpublisher=\count530
+\c@savedorigpublisher=\count531
+\c@publisher=\count532
+\c@savedpublisher=\count533
+\c@language=\count534
+\c@savedlanguage=\count535
+\c@origlanguage=\count536
+\c@savedoriglanguage=\count537
+\c@pageref=\count538
+\c@savedpageref=\count539
 \shorthandwidth=\skip99
 \shortjournalwidth=\skip100
 \shortserieswidth=\skip101
@@ -1403,19 +1433,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count538
-\c@textcitetotal=\count539
-\c@textcitemaxnames=\count540
-\c@biburlbigbreakpenalty=\count541
-\c@biburlbreakpenalty=\count542
-\c@biburlnumpenalty=\count543
-\c@biburlucpenalty=\count544
-\c@biburllcpenalty=\count545
+\c@textcitecount=\count540
+\c@textcitetotal=\count541
+\c@textcitemaxnames=\count542
+\c@biburlbigbreakpenalty=\count543
+\c@biburlbreakpenalty=\count544
+\c@biburlnumpenalty=\count545
+\c@biburlucpenalty=\count546
+\c@biburllcpenalty=\count547
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count546
+\c@smartand=\count548
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -1427,8 +1457,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count547
-\c@bbx:relatedtotal=\count548
+\c@bbx:relatedcount=\count549
+\c@bbx:relatedtotal=\count550
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -1457,7 +1487,7 @@ Package: expl3 2025-07-20 L3 programming layer (loader)
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count549
+\l__color_backend_stack_int=\count551
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2025-07-20 L3 programming layer (loader) 
@@ -1472,48 +1502,39 @@ Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 ))
 Package biblatex Info: Redefining '\parencite' on input line 38.
 )
-\@quotelevel=\count550
-\@quotereset=\count551
+\@quotelevel=\count552
+\@quotereset=\count553
 
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
-(biblatex)                Setting 'uniquename=init' on input line 75.
+(biblatex)                Setting 'uniquename=init' on input line 76.
 
 (main.aux
-
-LaTeX Warning: Label `figure2' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
 
 LaTeX Warning: Label `fig:my_label' multiply defined.
 
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1551,16 +1572,16 @@ LaTeX Font Info:    ... okay on input line 75.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count552
-\scratchdimen=\dimen363
+\scratchcounter=\count554
+\scratchdimen=\dimen373
 \scratchbox=\box145
-\nofMPsegments=\count553
-\nofMParguments=\count554
+\nofMPsegments=\count555
+\nofMParguments=\count556
 \everyMPshowfont=\toks62
-\MPscratchCnt=\count555
-\MPscratchDim=\dimen364
-\MPnumerator=\count556
-\makeMPintoPDFobject=\count557
+\MPscratchCnt=\count557
+\MPscratchDim=\dimen374
+\MPnumerator=\count558
+\makeMPintoPDFobject=\count559
 \everyMPtoPDFconversion=\toks63
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1570,7 +1591,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 75.
+Package hyperref Info: Link coloring OFF on input line 76.
  (main.out)
 (main.out)
 \@outlinefile=\write6
@@ -1601,14 +1622,16 @@ Dictionary: translator-numbers-dictionary, Language: English
 lish.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-\c@lstlisting=\count558
+\c@lstlisting=\count560
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 75.
+ on input line 76.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
@@ -1623,87 +1646,79 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 75.
-Package biblatex Info: Reference segment=0 on input line 75.
+Package biblatex Info: Reference section=0 on input line 76.
+Package biblatex Info: Reference segment=0 on input line 76.
 (main.nav)
 File: logos/IIST Logo.pdf Graphic file (type pdf)
 <use logos/IIST Logo.pdf>
-Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 75.
+Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 76.
 (pdftex.def)             Requested size: 85.35754pt x 85.35826pt.
-LaTeX Font Info:    Calculating math sizes for size <9.36> on input line 75.
+LaTeX Font Info:    Calculating math sizes for size <9.36> on input line 76.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6.55197> on input line 75.
+(Font)              <6.55197> on input line 76.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <4.68> on input line 75.
+(Font)              <4.68> on input line 76.
 File: ./logos/logo2.png Graphic file (type png)
 <use ./logos/logo2.png>
-Package pdftex.def Info: ./logos/logo2.png  used on input line 75.
+Package pdftex.def Info: ./logos/logo2.png  used on input line 76.
 (pdftex.def)             Requested size: 81.16222pt x 85.35826pt.
 File: logos/IIST Logo.pdf Graphic file (type pdf)
 <use logos/IIST Logo.pdf>
-Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 228.
+Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 215.
 (pdftex.def)             Requested size: 85.35754pt x 85.35826pt.
 File: ./logos/logo2.png Graphic file (type png)
 <use ./logos/logo2.png>
-Package pdftex.def Info: ./logos/logo2.png  used on input line 228.
+Package pdftex.def Info: ./logos/logo2.png  used on input line 215.
 (pdftex.def)             Requested size: 81.16222pt x 85.35826pt.
 <pictures/figure3.png, id=51, 1278.27562pt x 523.9575pt>
 File: pictures/figure3.png Graphic file (type png)
 <use pictures/figure3.png>
-Package pdftex.def Info: pictures/figure3.png  used on input line 228.
+Package pdftex.def Info: pictures/figure3.png  used on input line 215.
 (pdftex.def)             Requested size: 291.69113pt x 119.56429pt.
 <pictures/figure4.pdf, id=52, 422.57875pt x 423.5825pt>
 File: pictures/figure4.pdf Graphic file (type pdf)
 <use pictures/figure4.pdf>
-Package pdftex.def Info: pictures/figure4.pdf  used on input line 228.
+Package pdftex.def Info: pictures/figure4.pdf  used on input line 215.
 (pdftex.def)             Requested size: 291.69113pt x 292.38858pt.
-LaTeX Font Info:    Calculating math sizes for size <19.41> on input line 228.
+LaTeX Font Info:    Calculating math sizes for size <19.41> on input line 215.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19.41> not available
-(Font)              size <20.74> substituted on input line 228.
+(Font)              size <20.74> substituted on input line 215.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13.58693> not available
-(Font)              size <14.4> substituted on input line 228.
+(Font)              size <14.4> substituted on input line 215.
 
 <pictures/figure5.pdf, id=53, 422.57875pt x 420.57124pt>
 File: pictures/figure5.pdf Graphic file (type pdf)
 <use pictures/figure5.pdf>
-Package pdftex.def Info: pictures/figure5.pdf  used on input line 228.
+Package pdftex.def Info: pictures/figure5.pdf  used on input line 215.
 (pdftex.def)             Requested size: 291.69113pt x 290.30998pt.
 <pictures/figure1.jpg, id=54, 426.75435pt x 426.75435pt>
 File: pictures/figure1.jpg Graphic file (type jpg)
 <use pictures/figure1.jpg>
-Package pdftex.def Info: pictures/figure1.jpg  used on input line 228.
+Package pdftex.def Info: pictures/figure1.jpg  used on input line 215.
 (pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
 <pictures/figure2.jpg, id=55, 426.75435pt x 426.75435pt>
 File: pictures/figure2.jpg Graphic file (type jpg)
 <use pictures/figure2.jpg>
-Package pdftex.def Info: pictures/figure2.jpg  used on input line 228.
-(pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
-File: pictures/figure1.jpg Graphic file (type jpg)
-<use pictures/figure1.jpg>
-Package pdftex.def Info: pictures/figure1.jpg  used on input line 228.
-(pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
-File: pictures/figure2.jpg Graphic file (type jpg)
-<use pictures/figure2.jpg>
-Package pdftex.def Info: pictures/figure2.jpg  used on input line 228.
+Package pdftex.def Info: pictures/figure2.jpg  used on input line 215.
 (pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <13.48> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 228.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 215.
 
 
 
 
 File: logos/IIST Logo.pdf Graphic file (type pdf)
 <use logos/IIST Logo.pdf>
-Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 228.
+Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 215.
 (pdftex.def)             Requested size: 85.35754pt x 85.35826pt.
 File: ./logos/logo2.png Graphic file (type png)
 <use ./logos/logo2.png>
-Package pdftex.def Info: ./logos/logo2.png  used on input line 228.
+Package pdftex.def Info: ./logos/logo2.png  used on input line 215.
 (pdftex.def)             Requested size: 81.16222pt x 85.35826pt.
 [1{C:/Users/praveen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
@@ -1712,19 +1727,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.228 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.228 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.228 \end{frame}
+l.215 \end{frame}
                   <./logos/IIST Logo.pdf> <./logos/logo2.png> <./pictures/figur
 e3.png> <./pictures/figure4.pdf> <./pictures/figure5.pdf> <./pictures/figure1.j
 pg> <./pictures/figure2.jpg>]
@@ -1757,10 +1760,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50051 strings out of 468133
- 1164643 string characters out of 5440780
- 2176844 words of memory out of 5000000
- 77810 multiletter control sequences out of 15000+600000
+ 51394 strings out of 468133
+ 1190974 string characters out of 5440780
+ 2194941 words of memory out of 5000000
+ 79143 multiletter control sequences out of 15000+600000
  639956 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,804b,1727s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1769,7 +1772,7 @@ m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmssi12.pfb>
-Output written on main.pdf (1 page, 3046758 bytes).
+Output written on main.pdf (1 page, 3046507 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
