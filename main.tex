@@ -137,7 +137,7 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 				 
 				\begin{figure}
 					\centering
-					\includegraphics[width = 0.8\textwidth]{pictures/cantileverBeam}
+					\includegraphics[width = 0.79\textwidth]{pictures/cantileverBeam}
 					\vspace{-0.4 cm}
 					\caption{Normalized displacement, rotations, bending moment and shear force of cantilever beam}
 					\label{fig:my_label}
@@ -153,8 +153,11 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 		\label{figssb}
 	\end{figure}
 \end{defbox}
-		\begin{defbox}
-			
+		\begin{defbox}{Scope}
+			\begin{figure}
+				\includegraphics[width = 0.82\textwidth]{pictures/applications}
+				\caption{A mems resonator \copyright Bhaskaran et al., \copyright scitime, a mems device by \copyright sensing-machines.}
+			\end{figure}
 		\end{defbox}	
 			
 		\begin{defbox}{Conclusion}{}
@@ -166,7 +169,9 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 \begin{columns}
 	\begin{column}{2\colwidth+\sepwidth}
 			\begin{block}{References}
-			% This prevents the "Entry Name" error and uses small text
+			\begin{columns}
+				\begin{column}{\colwidth}
+					% This prevents the "Entry Name" error and uses small text
 			\setbeamertemplate{bibliography item}[text] 
 			\renewcommand{\refname}{} % Removes the default "References" title inside the block
 			\begin{footnotesize}
@@ -185,6 +190,30 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 					
 				\end{thebibliography}
 			\end{footnotesize}
+				\end{column}
+				
+				\begin{column}{\colwidth}
+							% This prevents the "Entry Name" error and uses small text
+					\setbeamertemplate{bibliography item}[text] 
+					\renewcommand{\refname}{} % Removes the default "References" title inside the block
+					\begin{footnotesize}
+						\begin{thebibliography}{9}
+							\setlength{\itemsep}{0.2ex} % Adjusts vertical spacing between refs
+							\setcounter{enumiv}{2}
+							\bibitem{patel2022novel}
+							B.~N. Patel and S.~M. Srinivasan.
+							\newblock Novel nickle foil micro-bend tests and the need for a relook at length scale parameter’s numerical value.
+							\newblock \textit{Mechanics of Advanced Materials and Structures}, 29(25):3924--3933, 2022.
+							
+							\bibitem{romano2017nonlocal}
+							G.~Romano and R.~Barretta.
+							\newblock Nonlocal elasticity in nanobeams: the stress-driven integral model.
+							\newblock \textit{International Journal of Engineering Science}, 115:14--27, 2017.
+							
+						\end{thebibliography}
+					\end{footnotesize}
+				\end{column}
+			\end{columns}
 		\end{block}
 	\end{column}
 \end{columns}
