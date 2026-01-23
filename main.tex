@@ -80,6 +80,7 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 	\begin{columns}[t]
 	
 	\begin{column}{2\colwidth+\sepwidth}
+		\vspace{-0.5cm}
 	\begin{block}{Introduction}
 		\justifying
 		Low-dimensional structures with dimensions in the micro-nano range exhibit size-dependent behavior that cannot be captured by local constitutive models. This deviation occurs because local models assume material point interactions are local, whereas size-dependent behavior arises from long-range interactions. While Eringen’s strain-driven nonlocal model has been widely used, it often results in ill-posed governing equations and paradoxical results for beam bending. The stress-driven nonlocal approach has emerged as a mathematically consistent and well-posed substitute. This research develops the Element-Free Galerkin (EFG) method for a stress-driven one-dimensional Bernoulli-Euler beam, utilizing its inherent nonlocal solution approximation to accurately simulate size effects.
@@ -117,7 +118,7 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 				\end{figure}   
 			\end{defbox}
 			\begin{defbox}{Effect of Nondimensional Length Scale}
-				The accuracy of the EFG method depends heavily on the local support size, which is scaled by the nondimensional length scale parameter, $d_{max}$19191919. A parametric study revealed that the error remains high if $d_{max}$ is less than 50, and the optimal range for minimal error is between 200 and 600. Additionally, the stability of the method requires that the number of nodes in the domain be sufficiently large; specifically, a minimum of forty nodes is necessary to satisfy moment balance at the supports of a simply supported beam. This highlights a critical requirement for simulating nonlocal solids: the support domain must be large enough to effectively scale the local interactions.
+				The accuracy of the EFG method depends heavily on the local support size, which is scaled by the nondimensional length scale parameter, $d_{max}$. A parametric study revealed that the error remains high if $d_{max}$ is less than 50, and the optimal range for minimal error is between 200 and 600. Additionally, the stability of the method requires that the number of nodes in the domain be sufficiently large; specifically, a minimum of forty nodes is necessary to satisfy moment balance at the supports of a simply supported beam. This highlights a critical requirement for simulating nonlocal solids: the support domain must be large enough to effectively scale the local interactions.
 				\begin{figure}
 					\centering
 					\includegraphics[width = 0.4\textwidth]{pictures/figure5}
@@ -136,53 +137,57 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 				 
 				\begin{figure}
 					\centering
-					\includegraphics[width = 0.4\textwidth]{pictures/figure1}
+					\includegraphics[width = 0.8\textwidth]{pictures/cantileverBeam}
 					\vspace{-0.4 cm}
-					\caption{Normalized displacemnt of cantilever beam}
+					\caption{Normalized displacement, rotations, bending moment and shear force of cantilever beam}
 					\label{fig:my_label}
 				\end{figure}
-				\vspace{-0.2 cm}
-				\begin{figure}
-					\centering
-					\includegraphics[width = 0.4\textwidth]{pictures/figure2}
-					\vspace{-0.4 cm}
-					\caption{Domain and boundary conditions of the numerical model}
-					\label{fig:my_label}
-				\end{figure}   
 			\end{defbox}
+				\begin{defbox}{Numerical Results}{}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width = 0.8\textwidth]{pictures/ssb_combined}
+		\vspace{-0.4 cm}
+		\caption{Normalized displacement, rotations, bending moment and shear force of simply supported beam beam}
+		\label{figssb}
+	\end{figure}
+\end{defbox}
+		\begin{defbox}
 			
-			\begin{defbox}{Conclusion}{}
+		\end{defbox}	
 			
+		\begin{defbox}{Conclusion}{}
 		The development of the SD-EFGM provides an efficient numerical scheme for the static analysis of nonlocal Bernoulli-Euler beams. The method successfully captures critical bending quantities such as displacement, slopes, bending moments, and shear forces. It proves to be a well-posed alternative to strain-driven models, effectively eliminating previous modeling paradoxes while maintaining numerical accuracy through proper selection of the support domain and nodal density. 
 		\end{defbox}
-			
-			
-\begin{block}{References}
-	% This prevents the "Entry Name" error and uses small text
-	\setbeamertemplate{bibliography item}[text] 
-	\renewcommand{\refname}{} % Removes the default "References" title inside the block
-	
-	\begin{footnotesize}
-		\begin{thebibliography}{9}
-			\setlength{\itemsep}{0.2ex} % Adjusts vertical spacing between refs
-			
-			\bibitem{akhil2022} 
-			A. S. L. Akhil and I. R. P. Krishna, 
-			\newblock "Stress Driven Beams using Meshfree Methods," 
-			\newblock \textit{IIST Research Symposium}, 2022.
-			
-			\bibitem{eringen} 
-			A. C. Eringen, 
-			\newblock "Nonlocal Continuum Field Theories," 
-			\newblock \textit{Springer}, 2002.
-			
-		\end{thebibliography}
-	\end{footnotesize}
-\end{block}
-		\end{column}
-		
+		\end{column}		
 		\separatorcolumn
 	\end{columns}
+\begin{columns}
+	\begin{column}{2\colwidth+\sepwidth}
+			\begin{block}{References}
+			% This prevents the "Entry Name" error and uses small text
+			\setbeamertemplate{bibliography item}[text] 
+			\renewcommand{\refname}{} % Removes the default "References" title inside the block
+			\begin{footnotesize}
+				\begin{thebibliography}{9}
+					\setlength{\itemsep}{0.2ex} % Adjusts vertical spacing between refs
+					
+					\bibitem{akhil2025effect}
+					S.~L. Akhil, I.~R. Praveen Krishna, and M.~Aswathy.
+					\newblock Effect of non-dimensional length scale in element free Galerkin method for classical and strain driven nonlocal elasto-static problems.
+					\newblock \textit{Computers \& Structures}, 312:107724, 2025.
+					
+					\bibitem{akhil2025element}
+					S.~L. Akhil and I.~R. Praveen Krishna.
+					\newblock Element-Free Galerkin Method for Elastostatic Analysis of Nonlocal Stress-Driven Bernoulli--Euler Beams.
+					\newblock \textit{Journal of Engineering Mechanics}, 151(10):04025050, 2025.
+					
+				\end{thebibliography}
+			\end{footnotesize}
+		\end{block}
+	\end{column}
+\end{columns}
 % This fills the empty space and gives the overlay a stable base
 \vfill 
 
@@ -202,7 +207,7 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 			colback=myfooterblue,
 			colframe=myfooterblue,
 			colupper=white,
-			boxsep=10mm, 
+			boxsep=5mm, 
 			top=0mm, bottom=0mm,
 			left=2\sepwidth, right=2\sepwidth
 			]

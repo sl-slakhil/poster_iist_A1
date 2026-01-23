@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  22 JAN 2026 10:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  23 JAN 2026 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1510,11 +1510,7 @@ Package biblatex Warning: Conflicting options.
 (biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
 (biblatex)                Setting 'uniquename=init' on input line 76.
 
-(main.aux
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-)
+(main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
@@ -1664,73 +1660,67 @@ Package pdftex.def Info: ./logos/logo2.png  used on input line 76.
 (pdftex.def)             Requested size: 81.16222pt x 85.35826pt.
 File: logos/IIST Logo.pdf Graphic file (type pdf)
 <use logos/IIST Logo.pdf>
-Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 215.
+Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 220.
 (pdftex.def)             Requested size: 85.35754pt x 85.35826pt.
 File: ./logos/logo2.png Graphic file (type png)
 <use ./logos/logo2.png>
-Package pdftex.def Info: ./logos/logo2.png  used on input line 215.
+Package pdftex.def Info: ./logos/logo2.png  used on input line 220.
 (pdftex.def)             Requested size: 81.16222pt x 85.35826pt.
 <pictures/figure3.png, id=51, 1278.27562pt x 523.9575pt>
 File: pictures/figure3.png Graphic file (type png)
 <use pictures/figure3.png>
-Package pdftex.def Info: pictures/figure3.png  used on input line 215.
+Package pdftex.def Info: pictures/figure3.png  used on input line 220.
 (pdftex.def)             Requested size: 291.69113pt x 119.56429pt.
 <pictures/figure4.pdf, id=52, 422.57875pt x 423.5825pt>
 File: pictures/figure4.pdf Graphic file (type pdf)
 <use pictures/figure4.pdf>
-Package pdftex.def Info: pictures/figure4.pdf  used on input line 215.
+Package pdftex.def Info: pictures/figure4.pdf  used on input line 220.
 (pdftex.def)             Requested size: 291.69113pt x 292.38858pt.
-LaTeX Font Info:    Calculating math sizes for size <19.41> on input line 215.
+LaTeX Font Info:    Calculating math sizes for size <19.41> on input line 220.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19.41> not available
-(Font)              size <20.74> substituted on input line 215.
+(Font)              size <20.74> substituted on input line 220.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13.58693> not available
-(Font)              size <14.4> substituted on input line 215.
+(Font)              size <14.4> substituted on input line 220.
 
 <pictures/figure5.pdf, id=53, 422.57875pt x 420.57124pt>
 File: pictures/figure5.pdf Graphic file (type pdf)
 <use pictures/figure5.pdf>
-Package pdftex.def Info: pictures/figure5.pdf  used on input line 215.
+Package pdftex.def Info: pictures/figure5.pdf  used on input line 220.
 (pdftex.def)             Requested size: 291.69113pt x 290.30998pt.
-<pictures/figure1.jpg, id=54, 426.75435pt x 426.75435pt>
-File: pictures/figure1.jpg Graphic file (type jpg)
-<use pictures/figure1.jpg>
-Package pdftex.def Info: pictures/figure1.jpg  used on input line 215.
-(pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
-<pictures/figure2.jpg, id=55, 426.75435pt x 426.75435pt>
-File: pictures/figure2.jpg Graphic file (type jpg)
-<use pictures/figure2.jpg>
-Package pdftex.def Info: pictures/figure2.jpg  used on input line 215.
-(pdftex.def)             Requested size: 291.69113pt x 291.69333pt.
+<pictures/cantileverBeam.png, id=54, 3212.0pt x 3212.0pt>
+File: pictures/cantileverBeam.png Graphic file (type png)
+<use pictures/cantileverBeam.png>
+Package pdftex.def Info: pictures/cantileverBeam.png  used on input line 220.
+(pdftex.def)             Requested size: 583.3934pt x 583.37926pt.
+<pictures/ssb_combined.png, id=55, 3212.0pt x 3212.0pt>
+File: pictures/ssb_combined.png Graphic file (type png)
+<use pictures/ssb_combined.png>
+Package pdftex.def Info: pictures/ssb_combined.png  used on input line 220.
+(pdftex.def)             Requested size: 583.3934pt x 583.37926pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <13.48> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 215.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 220.
 
 
 
 
 File: logos/IIST Logo.pdf Graphic file (type pdf)
 <use logos/IIST Logo.pdf>
-Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 215.
+Package pdftex.def Info: logos/IIST Logo.pdf  used on input line 220.
 (pdftex.def)             Requested size: 85.35754pt x 85.35826pt.
 File: ./logos/logo2.png Graphic file (type png)
 <use ./logos/logo2.png>
-Package pdftex.def Info: ./logos/logo2.png  used on input line 215.
+Package pdftex.def Info: ./logos/logo2.png  used on input line 220.
 (pdftex.def)             Requested size: 81.16222pt x 85.35826pt.
 [1{C:/Users/praveen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:my_label}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.215 \end{frame}
-                  <./logos/IIST Logo.pdf> <./logos/logo2.png> <./pictures/figur
-e3.png> <./pictures/figure4.pdf> <./pictures/figure5.pdf> <./pictures/figure1.j
-pg> <./pictures/figure2.jpg>]
+ <./logos/IIST Logo.pdf> <./logos/logo2.png> <./pictures/figure3.png> <./pictur
+es/figure4.pdf> <./pictures/figure5.pdf> <./pictures/cantileverBeam.png> <./pic
+tures/ssb_combined.png>]
 \tf@nav=\write7
 \openout7 = `main.nav'.
 
@@ -1750,9 +1740,6 @@ L3 programming layer <2025-07-20>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.33pt have occurred.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1760,10 +1747,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51394 strings out of 468133
- 1190974 string characters out of 5440780
- 2194941 words of memory out of 5000000
- 79143 multiletter control sequences out of 15000+600000
+ 51397 strings out of 468133
+ 1191144 string characters out of 5440780
+ 2206253 words of memory out of 5000000
+ 79145 multiletter control sequences out of 15000+600000
  639956 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,804b,1727s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1772,9 +1759,9 @@ m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmssi12.pfb>
-Output written on main.pdf (1 page, 3046507 bytes).
+Output written on main.pdf (1 page, 3338213 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
+ 116 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
  222 words of extra memory for PDF output out of 10000 (max. 10000000)
 
