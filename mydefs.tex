@@ -91,15 +91,18 @@ giveninits=true % render authors' given name initials and not the full given nam
 	colframe=cyan!75!black,
 	coltitle=cyan!80!black,
 	title={#1},
-	fonttitle=\bfseries\large, 
-	% --- Change here: fontupper set to black ---
-	fontupper=\color{black}, 
-	% --------------------------------------------
+	fonttitle=\bfseries\large,
+	fontupper=\color{black},
 	boxed title style={colback=cyan!5!white,colframe=cyan!75!black},
 	before upper={
-		\beamercolorsinboxes{cyan}
+		% ---- force itemize colors to black ----
+		\setbeamercolor{itemize item}{fg=black}
+		\setbeamercolor{itemize subitem}{fg=black}
+		\setbeamercolor{itemize subsubitem}{fg=black}
+		\setbeamercolor{itemize/enumerate body}{fg=black}
+		\setbeamercolor{itemize/enumerate subbody}{fg=black}
 	}
-}%
+}
 
 
 \definecolor{myfooterblue}{RGB}{1, 11, 61}

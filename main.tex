@@ -91,24 +91,42 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 	\begin{columns}[t]
 		\separatorcolumn
 		\begin{column}{\colwidth}
-
+				\begin{defbox}{Scope}
+					\begin{figure}
+						\includegraphics[width = 0.82\textwidth]{pictures/applications}
+						\caption{A mems resonator \copyright Bhaskaran et al., \copyright scitime, a mems device by \copyright sensing-machines.}
+					\end{figure}
+				\end{defbox}
+				
 				\begin{defbox}{Theoretical Formulation and Methodology}{}
-				The formulation begins with the stress-driven integral model, where nonlocal bending curvatures are defined by the spatial convolution of a kernel function and the bending interaction. This approach leads to a sixth-order governing differential equation for the transverse displacement field. Unlike traditional finite element methods that rely on predefined meshes, the EFG method utilizes scattered nodes and Moving Least Square (MLS) approximations for constructing shape functions. To satisfy the requirements for higher-order continuity needed to approximate bending moments and shear forces in a stress-driven setting, a 6th-order spline weighting function is employed.
-				\begin{figure}
-					\centering
-					\includegraphics[width = 0.4\textwidth]{pictures/figure3}
-					\vspace{-0.4 cm}
-					\caption{Euler-Bernoulli beam kinematics}
-					\label{figure1}
-				\end{figure}
+				Based on stress driven model, nonlocal elastic curvatures $\chi(x)$ are the output of a spatial convolution between a kernel function $\phi$ and the bending moment $M(t)$:
+				\begin{equation}
+					\chi(x)=\int_{0}^{L}\phi(x-\overline{x},c)\frac{M(t)}{EI}dt 
+				\end{equation}
+				\begin{itemize}
+					\item [$\square$] Leads to a sixth order governing differential equation.
+					\item [$\square$] EFG method rely of scattered nodes and moving least square (MLS) approximations for constructing shape functions.
+					\item [$\square$] A 6th-order spline weighting function is employed to provide the higher-order continuity required for approximating bending moments and shear forces.
+				\end{itemize}	
+				 
 			\end{defbox}
 			\begin{defbox}{Numerical Implementation}{}
-				The discrete system of equations is formed by implementing the weighted residual statement through integration by parts. Because MLS interpolants lack the Kronecker delta property, essential and constitutive boundary conditions are enforced using a combination of the scaled transformation method and Lagrange multipliers. This methodology eliminates the need for the constitutive continuity conditions typically required by element-based formulations. The resulting stiffness matrix is fully populated, leading to a higher computational effort compared to the finite element method, but it provides a more robust numerical tool for nonlocal analysis.
+				\begin{itemize}
+					\item [$\square$] Essential and constitutive boundary conditions are enforced using a combination of Lagrange Multipliers and Scaled Transformation.
+					\item [$\square$] This methodology removes the requirement for constitutive continuity conditions found in element-based formulations.
+					\item [$\square$] The method results in a fully populated stiffness matrix, requiring more computational effort than traditional FEM but offers a more robust tool for nonlocal analysis.
+				\end{itemize}
 				
 
 			\end{defbox}
 				\begin{defbox}{Validation and Parametric Study}{}
-				The proposed SD-EFGM formulation was validated by comparing the end deflection of a cantilever microbeam against experimental results. The method successfully predicted the load-displacement relationship for microbeams of different heights, demonstrating that nonlocal behavior reduces as the beam length increases, as expected in nonlocal theory. Furthermore, static results for simply supported, cantilever, and fixed-fixed beams under point and uniformly distributed loads were compared against analytical stress-driven solutions. The SD-EFGM displacement shows a consistent stiffening effect with an increase in nonlocal parameters, aligning with analytical benchmarks.
+				
+					\begin{itemize}
+					\item [$\square$] The SD-EFGM formulation was validated against experimental results from cantilever microbeam deflection tests.
+					\item [$\square$] For a beam height $h = 15 \mu m$, the model matches experimental data with a nonlocal parameter $\lambda = 5.0$
+					\item [$\square$] The model correctly predicts a reduction in nonlocal behavior as the beam length increases.
+					\item[$\square$] Static results for simply supported, cantilever, and fixed-fixed beams under various loads align with analytical stress-driven benchmarks.
+				\end{itemize}
 				\begin{figure}
 					\centering
 					\includegraphics[width = 0.4\textwidth]{pictures/figure4}
@@ -118,7 +136,12 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 				\end{figure}   
 			\end{defbox}
 			\begin{defbox}{Effect of Nondimensional Length Scale}
-				The accuracy of the EFG method depends heavily on the local support size, which is scaled by the nondimensional length scale parameter, $d_{max}$. A parametric study revealed that the error remains high if $d_{max}$ is less than 50, and the optimal range for minimal error is between 200 and 600. Additionally, the stability of the method requires that the number of nodes in the domain be sufficiently large; specifically, a minimum of forty nodes is necessary to satisfy moment balance at the supports of a simply supported beam. This highlights a critical requirement for simulating nonlocal solids: the support domain must be large enough to effectively scale the local interactions.
+				\begin{itemize}
+					\item [$\square$] Accuracy is heavily dependent on the local support size, scaled by the nondimensional length scale parameter, $d_{max}$.
+					\item [$\square$] Parametric studies show that error remains high if $d_{max}$ is below 50, with an optimal range for minimal error between 200 and 600.
+					\item [$\square$] Stability requires a sufficiently large number of nodes; for example, at least 40 nodes are needed for moment balance in simply supported beams(length 25nm, width and height 1nm).
+					\item [$\square$] Simulating nonlocal solids requires a support domain large enough to effectively include long range interactions.
+				\end{itemize}
 				\begin{figure}
 					\centering
 					\includegraphics[width = 0.4\textwidth]{pictures/figure5}
@@ -137,7 +160,7 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 				 
 				\begin{figure}
 					\centering
-					\includegraphics[width = 0.79\textwidth]{pictures/cantileverBeam}
+					\includegraphics[width = 0.82\textwidth]{pictures/cantileverBeam}
 					\vspace{-0.4 cm}
 					\caption{Normalized displacement, rotations, bending moment and shear force of cantilever beam}
 					\label{fig:my_label}
@@ -147,59 +170,45 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 	
 	\begin{figure}
 		\centering
-		\includegraphics[width = 0.8\textwidth]{pictures/ssb_combined}
+		\includegraphics[width = 0.82\textwidth]{pictures/ssb_combined}
 		\vspace{-0.4 cm}
 		\caption{Normalized displacement, rotations, bending moment and shear force of simply supported beam beam}
 		\label{figssb}
 	\end{figure}
 \end{defbox}
-		\begin{defbox}{Scope}
-			\begin{figure}
-				\includegraphics[width = 0.82\textwidth]{pictures/applications}
-				\caption{A mems resonator \copyright Bhaskaran et al., \copyright scitime, a mems device by \copyright sensing-machines.}
-			\end{figure}
-		\end{defbox}	
 			
-		\begin{defbox}{Conclusion}{}
-		The development of the SD-EFGM provides an efficient numerical scheme for the static analysis of nonlocal Bernoulli-Euler beams. The method successfully captures critical bending quantities such as displacement, slopes, bending moments, and shear forces. It proves to be a well-posed alternative to strain-driven models, effectively eliminating previous modeling paradoxes while maintaining numerical accuracy through proper selection of the support domain and nodal density. 
+			\vspace{0.2cm}
+		\begin{defbox}{Conclusions}{}
+		\begin{itemize}
+			\item [$\square$] SD-EFGM provides an efficient numerical scheme for the static analysis of nonlocal Bernoulli-Euler beams.
+			\item [$\square$] The displacement shows a consistent stiffening effect as nonlocal parameters increase.
+			\item [$\square$] Accurate nonlocal simulation requires a non-compact support domain—with an optimal nondimensional length scale ($d_{max}$) between 200 and 600.
+			\item [$\square$] The method accurately captures displacement, slopes, bending moments, and shear forces.
+			\item [$\square$] Provides a robust alternative for element based formulation and offers scalability. 
+			
+		\end{itemize}
 		\end{defbox}
-		\end{column}		
-		\separatorcolumn
-	\end{columns}
-\begin{columns}
-	\begin{column}{2\colwidth+\sepwidth}
-			\begin{block}{References}
-			\begin{columns}
-				\begin{column}{\colwidth}
+					\begin{block}{References}
+			
 					% This prevents the "Entry Name" error and uses small text
-			\setbeamertemplate{bibliography item}[text] 
-			\renewcommand{\refname}{} % Removes the default "References" title inside the block
-			\begin{footnotesize}
-				\begin{thebibliography}{9}
-					\setlength{\itemsep}{0.2ex} % Adjusts vertical spacing between refs
-					
-					\bibitem{akhil2025effect}
-					S.~L. Akhil, I.~R. Praveen Krishna, and M.~Aswathy.
-					\newblock Effect of non-dimensional length scale in element free Galerkin method for classical and strain driven nonlocal elasto-static problems.
-					\newblock \textit{Computers \& Structures}, 312:107724, 2025.
-					
-					\bibitem{akhil2025element}
-					S.~L. Akhil and I.~R. Praveen Krishna.
-					\newblock Element-Free Galerkin Method for Elastostatic Analysis of Nonlocal Stress-Driven Bernoulli--Euler Beams.
-					\newblock \textit{Journal of Engineering Mechanics}, 151(10):04025050, 2025.
-					
-				\end{thebibliography}
-			\end{footnotesize}
-				\end{column}
-				
-				\begin{column}{\colwidth}
-							% This prevents the "Entry Name" error and uses small text
 					\setbeamertemplate{bibliography item}[text] 
 					\renewcommand{\refname}{} % Removes the default "References" title inside the block
 					\begin{footnotesize}
 						\begin{thebibliography}{9}
 							\setlength{\itemsep}{0.2ex} % Adjusts vertical spacing between refs
-							\setcounter{enumiv}{2}
+							
+							\bibitem{akhil2025effect}
+							S.~L. Akhil, I.~R. Praveen Krishna, and M.~Aswathy.
+							\newblock Effect of non-dimensional length scale in element free Galerkin method for classical and strain driven nonlocal elasto-static problems.
+							\newblock \textit{Computers \& Structures}, 312:107724, 2025.
+							
+							\bibitem{akhil2025element}
+							S.~L. Akhil and I.~R. Praveen Krishna.
+							\newblock Element-Free Galerkin Method for Elastostatic Analysis of Nonlocal Stress-Driven Bernoulli--Euler Beams.
+							\newblock \textit{Journal of Engineering Mechanics}, 151(10):04025050, 2025.
+							
+
+							%\setcounter{enumiv}{2}
 							\bibitem{patel2022novel}
 							B.~N. Patel and S.~M. Srinivasan.
 							\newblock Novel nickle foil micro-bend tests and the need for a relook at length scale parameter’s numerical value.
@@ -212,11 +221,16 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 							
 						\end{thebibliography}
 					\end{footnotesize}
-				\end{column}
-			\end{columns}
+		
 		\end{block}
-	\end{column}
-\end{columns}
+		
+		
+		
+		
+		\end{column}		
+		\separatorcolumn
+	\end{columns}
+
 % This fills the empty space and gives the overlay a stable base
 \vfill 
 
@@ -241,7 +255,7 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 			left=2\sepwidth, right=2\sepwidth
 			]
 			\centering
-			\large \textbf{Structural Dynamics and Vibration Laboratory} \hfill \textbf{IIST, Thiruvananthapuram} \hfill \textbf{2026}
+			\large \textbf{Structural Dynamics and Vibration Laboratory} \hfill \textbf{IIST, Thiruvananthapuram, Kerala} \hfill \textbf{2026}
 		\end{tcolorbox}
 	};
 \end{tikzpicture}
