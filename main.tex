@@ -94,27 +94,27 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 				\begin{defbox}{Scope}
 					\begin{figure}
 						\includegraphics[width = 0.82\textwidth]{pictures/applications}
-						\caption{A mems resonator \copyright Bhaskaran et al., \copyright scitime, a mems device by \copyright sensing-machines.}
+						\caption{A MEMS resonator (\copyright Bhaskaran et al.), images from  \copyright scitime, a MEMS device by \copyright sensing-machines.}
 					\end{figure}
 				\end{defbox}
 				
 				\begin{defbox}{Theoretical Formulation and Methodology}{}
-				Based on stress driven model, nonlocal elastic curvatures $\chi(x)$ are the output of a spatial convolution between a kernel function $\phi$ and the bending moment $M(t)$:
+				Based on stress driven model, nonlocal elastic curvatures $\chi(x)$ are the output of a spatial convolution between a kernel function $\phi$ and the bending moment $M(x)$:
 				\begin{equation}
-					\chi(x)=\int_{0}^{L}\phi(x-\overline{x},c)\frac{M(t)}{EI}dt 
+					\chi(x)=\int_{0}^{L}\phi(x-\overline{x},c)\frac{M(x)}{EI}dx 
 				\end{equation}
 				\begin{itemize}
 					\item [$\square$] Leads to a sixth order governing differential equation.
-					\item [$\square$] EFG method rely of scattered nodes and moving least square (MLS) approximations for constructing shape functions.
+					\item [$\square$] EFG method rely of scattered nodes and moving least squares (MLS) approximations for constructing shape functions.
 					\item [$\square$] A 6th-order spline weighting function is employed to provide the higher-order continuity required for approximating bending moments and shear forces.
 				\end{itemize}	
 				 
 			\end{defbox}
 			\begin{defbox}{Numerical Implementation}{}
 				\begin{itemize}
-					\item [$\square$] Essential and constitutive boundary conditions are enforced using a combination of Lagrange Multipliers and Scaled Transformation.
+					\item [$\square$] Essential and constitutive boundary conditions are enforced using a combination of Lagrange multipliers and scaled transformation.
 					\item [$\square$] This methodology removes the requirement for constitutive continuity conditions found in element-based formulations.
-					\item [$\square$] The method results in a fully populated stiffness matrix, requiring more computational effort than traditional FEM but offers a more robust tool for nonlocal analysis.
+					\item [$\square$] The method results in a fully populated stiffness matrix, requiring more computational effort than traditional FEM but it offers a more robust tool for nonlocal analysis.
 				\end{itemize}
 				
 
@@ -122,8 +122,8 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 				\begin{defbox}{Validation and Parametric Study}{}
 				
 					\begin{itemize}
-					\item [$\square$] The SD-EFGM formulation was validated against experimental results from cantilever microbeam deflection tests.
-					\item [$\square$] For a beam height $h = 15 \mu m$, the model matches experimental data with a nonlocal parameter $\lambda = 5.0$
+					\item [$\square$] The SD-EFGM formulation was validated against experimental results from cantilever micro-beam deflection tests.
+					\item [$\square$] For a beam height $h = 15 \mu m$, the model matches experimental data with a nonlocal parameter, $\lambda = 5.0$
 					\item [$\square$] The model correctly predicts a reduction in nonlocal behavior as the beam length increases.
 					\item[$\square$] Static results for simply supported, cantilever, and fixed-fixed beams under various loads align with analytical stress-driven benchmarks.
 				\end{itemize}
@@ -146,7 +146,7 @@ Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala }
 					\centering
 					\includegraphics[width = 0.4\textwidth]{pictures/figure5}
 					\vspace{-0.4 cm}
-					\caption{Error in displacement Nondimensional length scale}
+					\caption{Error in displacement v./s Nondimensional length scale}
 					\label{figure5}
 				\end{figure}   
 			\end{defbox}
