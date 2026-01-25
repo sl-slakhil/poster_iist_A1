@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  24 JAN 2026 19:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.25)  25 JAN 2026 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1695,16 +1695,16 @@ File: pictures/figure5.pdf Graphic file (type pdf)
 <use pictures/figure5.pdf>
 Package pdftex.def Info: pictures/figure5.pdf  used on input line 263.
 (pdftex.def)             Requested size: 291.69113pt x 290.30998pt.
-<pictures/cantileverBeam.jpg, id=54, 334.3692pt x 335.3328pt>
+<pictures/cantileverBeam.jpg, id=54, 6007.44376pt x 6022.5pt>
 File: pictures/cantileverBeam.jpg Graphic file (type jpg)
 <use pictures/cantileverBeam.jpg>
 Package pdftex.def Info: pictures/cantileverBeam.jpg  used on input line 263.
-(pdftex.def)             Requested size: 597.9813pt x 599.80193pt.
-<pictures/ssb_combined.jpg, id=55, 334.1283pt x 336.2964pt>
+(pdftex.def)             Requested size: 597.9813pt x 599.43652pt.
+<pictures/ssb_combined.jpg, id=55, 5982.35pt x 6022.5pt>
 File: pictures/ssb_combined.jpg Graphic file (type jpg)
 <use pictures/ssb_combined.jpg>
 Package pdftex.def Info: pictures/ssb_combined.jpg  used on input line 263.
-(pdftex.def)             Requested size: 597.9813pt x 601.8642pt.
+(pdftex.def)             Requested size: 597.9813pt x 601.91771pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <13.48> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 263.
@@ -1768,7 +1768,7 @@ lic/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts
 .pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Pr
 ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
 MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (1 page, 3651439 bytes).
+Output written on main.pdf (1 page, 5802416 bytes).
 PDF statistics:
  145 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
